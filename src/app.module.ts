@@ -9,7 +9,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 @Module({
   imports: [
     // TasksModule, 
-    MongooseModule.forRoot('mongodb+srv://uniondeveloper:uniondeveloper2021$$@cluster0.9xkag.mongodb.net/tienda-union?retryWrites=true&w=majority&ssl=true', {
+    MongooseModule.forRoot('', {
     useNewUrlParser: true
   })],
   controllers: [AppController, TasksController],
